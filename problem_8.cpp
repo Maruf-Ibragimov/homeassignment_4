@@ -15,7 +15,6 @@ int main() {
         arr[i] = arr[i] * arr[i] * arr[i];
     }
 
-    cout << "Array after cubing every second element: ";
     for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
     }
